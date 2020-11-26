@@ -1,0 +1,8 @@
+num = [12,-7,5,-64,-14]
+print("numbers in list:", num)
+new_num = list(filter( lambda x: x>0 , num))
+print("positive numbers in list:", new_num)
+num = [12,14,-95,3]
+print("numbers in list:", num)
+new_num = list(filter( lambda x: x>0 , num))
+print("positive numbers in list:", new_num)
